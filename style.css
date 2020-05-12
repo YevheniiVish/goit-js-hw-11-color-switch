@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+button {
+  display: flex;
+  width: 200px;
+  height: 60px;
+  font-size: 40px;
+  background-color: blue;
+  color: cornsilk;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+}
